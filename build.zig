@@ -13,7 +13,7 @@ pub fn build(b: *std.Build) void {
         .link_libc = false,
         .link_libcpp = false,
         .single_threaded = true,
-        .strip = optimize == .ReleaseSmall,
+        .strip = optimize != .Debug,
         .valgrind = false,
         .omit_frame_pointer = false,
         .error_tracing = false,
