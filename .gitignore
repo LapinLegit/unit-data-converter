@@ -14,6 +14,11 @@
 !tsconfig.node.json
 !vite.config.ts
 
+!/dist
+!/dist/*.html
+!/dist/*.js
+!/dist/*.wasm
+
 !index.html
 
 !src
