@@ -14,10 +14,10 @@
 !tsconfig.node.json
 !vite.config.ts
 
-!/dist
-!/dist/*.html
-!/dist/*.js
-!/dist/*.wasm
+!/docs
+!/docs/*.html
+!/docs/*.js
+!/docs/*.wasm
 
 !index.html
 
