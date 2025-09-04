@@ -15,12 +15,12 @@ export default function Footer(): JSX.Element {
       spacing={1}
     >
       <Box>
-        by <Link href="https://github.com/lapin-axilla">Lapin</Link>
+        by <Link href="https://github.com/LapinLegit">Lapin</Link>
       </Box>
-      <Link href="https://github.com/lapin-axilla/unit-data-converter">Source Code</Link>
+      <Link href="https://github.com/LapinLegit/unit-data-converter">Source Code</Link>
       <Box>
         Licensed under{' '}
-        <Link href="https://github.com/lapin-axilla/unit-data-converter/blob/master/LICENSE">
+        <Link href="https://github.com/LapinLegit/unit-data-converter/blob/master/LICENSE">
           MIT
         </Link>
       </Box>
